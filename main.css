@@ -65,18 +65,43 @@ a:visited {
   background-color: red;
 }
 
+/* "Комбінований" селектор за типом і класом */
+div.main~div {
+  background-color: #F5F5DD
+}
+
 input[type='button']:hover {
-  background-color: blue;
+  background-color: #5d8aa8;
 }
 
 li:first-child {
-  border-top: solid green 5px;
+  border-top: solid green 3px;
 }
 
 li:last-child {
-  border-bottom: solid green 5px;
+  border-bottom: solid green 3px;
 }
 
-li:nth-of-type(3n + 1) {
-  background-color: grey
+li:nth-of-type(2n + 1) {
+  background-color: #d3d3d3
+}
+
+li:last-child {
+    font-size: 20px;
+}
+
+.manyLines > p {
+    text-decoration: underline;
+}
+
+#notesList {
+    color: orange;
+}
+
+.button[name*="loadNotes"] {
+    border-width: 4px;
+}
+
+div > p {
+    text-align: left;
 }

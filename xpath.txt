@@ -1,0 +1,7 @@
+1. //p[contains(text(), 'Lorem ')]
+2. //ol | //input
+3. //div[@class='main']/following-sibling::div
+4. //input[@class='button']
+5. //div/p
+6. //ol/li[3]
+7. //a[contains(text(),'головну')]

@@ -31,3 +31,9 @@ document.getElementById('loadNotes').addEventListener('click', () => {
   request.open('GET', '_items.html', true);
   request.send();
 })
+
+// Скролл на початок сторінки
+document.getElementById('scrollToTop').addEventListener('click', () => {
+    var topOfThePage = document.getElementById('main');
+    topOfThePage.scrollIntoView();
+})
