@@ -65,14 +65,6 @@ a:visited {
   background-color: red;
 }
 
-/* "Комбінований" селектор за типом і класом */
-div.main~div {
-  background-color: #F5F5DD
-}
-
-input[type='button']:hover {
-  background-color: #5d8aa8;
-}
 
 li:first-child {
   border-top: solid green 3px;
@@ -88,6 +80,14 @@ li:nth-of-type(2n + 1) {
 
 li:last-child {
     font-size: 20px;
+}
+
+div.main~div {
+  background-color: #F5F5DD
+}
+
+input[type='button']:hover {
+  background-color: #5d8aa8;
 }
 
 .manyLines > p {
